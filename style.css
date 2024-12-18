@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d2021;
+  color: #d5c4a1;
+}
+
+.container {
+  border: 2px solid #d5c4a1;
+  border-radius: 6px;
+  padding: 20px 30px;
+  font-size: 18px;
+}
+
+.container .choices {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.container .score {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .result {
+  text-align: center;
+}
+
+.container .reset {
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 48px;
+}
+
+.container .result {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.container button {
+  background-color: #1d2021;
+  color: #d5c4a1;
+  border: 2px solid #d5c4a1;
+  border-radius: 6px;
+  padding: 8px 26px;
+  font-size: 18px;
+  margin: 20px;
+}
